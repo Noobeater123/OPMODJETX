@@ -1,3 +1,18 @@
+// ==UserScript==
+// @name         bad wasd
+// @namespace    http://tampermonkey.net/
+// @version      2
+// @description  undefined
+// @match        *://moomoo.io/*
+// @match        *://dev.moomoo.io/*
+// @match        *://sandbox.moomoo.io/*
+// @require      https://rawgit.com/kawanet/msgpack-lite/master/dist/msgpack.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/javascript-astar/0.4.1/astar.min.js
+// @require      https://unpkg.com/brain.js@2.0.0-beta.4/dist/brain-browser.js
+// @license     CC (by)
+// @grant none
+// ==/UserScript==
+// reloadbar, primaryreload, secondary reload      wynd
 
 document.body.innerHTML = `
 <!-- SCRIPTS -->
